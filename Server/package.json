@@ -1,10 +1,11 @@
 {
-  "name": "rest-api",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon app.js"
+    "start" : "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -12,11 +13,8 @@
   "dependencies": {
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "mongodb": "^4.7.0",
     "mongoose": "^6.4.4",
-    "mongose": "^0.0.2-security",
     "nodemon": "^2.0.19"
   }
 }
